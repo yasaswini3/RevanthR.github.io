@@ -1,0 +1,335 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+html {
+    scroll-behavior: smooth;
+    
+}  
+.container{
+    margin: 0px;
+    padding:0px;
+    margin: 0px;
+    border:0px;
+}
+.navbar .logo img{
+    height:40px;
+    margin: 10px;
+}
+.navbar{
+    background:white;
+    position: static;
+    
+}
+
+.navbar .nav-items a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding: 0px 10px;
+    transition: border-bottom .5s;
+}
+
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.underline:after {
+  content: "";
+  position: absolute;
+  /* z-index: -1; */
+  left: 0;
+  right: 100%;
+  bottom: -10px;
+  background: #ffdd93;
+  height: 4px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+    padding-bottom:5px; 
+  right: 0;
+}
+header{
+    font-family: 'Noto Sans HK', sans-serif;
+}
+header .col-6 img{
+    height:440px;
+    
+}
+
+header .col-6{
+    background-color:rgb(253, 245, 203);
+    
+}
+header .col-6 h1{
+    margin: 10px 20px 10px 200px;
+    color:black;
+    font-size:60px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+header .col-6 p{
+    margin: 10px 20px 20px 200px;
+    font-size:18px;
+}
+header .col-6 button{
+    background:orange;
+    margin: 10px 200px 20px 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight:bold;
+}
+header .col-6 #logo{
+    margin: 40px auto 10px auto;
+    height: 120px;
+    display:block;
+}
+
+/* End of Header Section */
+.vision{
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.vision h1{
+    text-align: center;
+    padding-top:30px;
+}
+.vision h1 span{
+    padding-bottom:10px;
+    border-bottom: 4px solid rgb(0, 148, 104);
+}
+
+.vision p{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left: 150px;
+    padding-right:150px;
+    color:grey;
+    line-height:35px;
+    
+}
+
+/* End of vision */
+.about{
+    font-family: 'Noto Sans HK', sans-serif;
+    background: rgb(220, 244, 252);
+    background-size: cover;
+}
+
+.about h1{
+    text-align:center;
+    padding-top:30px;
+   
+    
+}
+.about h1 span{
+    padding-bottom:10px;
+    border-bottom: 4px solid rgb(0, 148, 104);
+}
+
+.about p{
+    text-align: justify;
+    margin : 40px 30px;
+    display: block;
+    line-height: 35px; 
+    box-shadow: 5px 10px 28px #888888;
+    padding: 30px;
+    background: white;
+    color:grey;
+    border-radius:10px;
+}
+.about .col-6 img{
+    height:350px;
+    margin: 60px auto;
+    display:block;
+    /* border: 10px solid rgb(0,148,104); */
+}
+/* End of about section */
+/* why section*/
+
+.why{
+    font-family: 'Noto Sans HK', sans-serif;
+    background: white;
+    background-size: cover;
+}
+
+.why h1{
+    text-align:center;
+    padding-top:30px;
+    
+   
+    
+}
+.why h1 span{
+    padding-bottom:10px;
+    border-bottom: 4px solid rgb(0, 148, 104);
+}
+.why .col-4{
+    padding:30px; 
+    
+}
+.why .col-4 img{
+    height: 120px;
+    margin: 30px auto;
+    display: block;
+}
+
+.why .col-4 h1{
+    font-size:30px;
+    color: rgb(0, 148, 104);
+    font-weight:600;
+}
+.why .col-4 p{
+    text-align: justify;
+    color: grey;
+    padding:20px;
+    line-height: 30px;
+    
+}
+/* end of why section */
+
+.how{
+    font-family: 'Noto Sans HK', sans-serif;
+    background: url("../images/bg-3.png");
+    background-size: cover;
+    z-index: 1;
+}
+
+.how h1{
+    text-align:center;
+    padding-top:30px;
+   
+    
+}
+.how h1 span{
+    padding-bottom:10px;
+    border-bottom: 4px solid rgb(0, 148, 104);
+}
+.how .row{
+    margin-top:60px;
+}
+.how .col-6 ul{
+    text-decoration:none;
+    color:grey;
+    /* background-color: orange; */
+}
+
+
+.how .col-6 .col-8{
+    float: right;
+  
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+.how .col-6 .col-8 h1{
+
+    color:grey;
+    font-size: 70px;
+
+}
+
+.how .col-6 .col-8 h2{
+    color:rgb(0, 148, 104);
+}
+.how #text ul{
+    padding:30px;
+    text-align:left;
+    line-height: 35px;
+    color:grey;
+
+}
+/* End of how */
+
+/* Skills section */
+
+.skills{
+    margin-top: 30px;
+    font-family: 'Noto Sans HK', sans-serif;
+    background: rgb(253, 245, 203);
+    background-size: cover;
+    z-index: 1;
+}
+
+.skills h1{
+    text-align:center;
+    padding-top:10px;
+   
+    
+}
+.skills h1 span{
+    padding-bottom:10px;
+    border-bottom: 4px solid rgb(0, 148, 104);
+}
+.skills .col-6 .col-6{
+    padding:30px;
+    text-align: center;
+    background: white;
+    margin-top: 40px;
+    margin-bottom:40px;
+    box-shadow: 5px 10px 13px #888888;
+    border-radius:10px;  
+
+}
+.skills .col-6 p{
+    text-align: left;
+    padding-top: 20px;
+    color:grey;
+}
+/* End  of Skills Section */
+
+.contact{
+    margin-top: 30px;
+ 
+}
+
+.contact .col-6 h1{
+    text-align:center;
+    padding-top:10px;
+   
+    
+}
+.contact .col-6  h1 span{
+    padding-bottom:10px;
+    border-bottom: 4px solid rgb(0, 148, 104);
+}
+.contact .col-6 .col-6{
+    padding:10px;
+    text-align: center;
+    background:rgb(220, 244, 252);
+    margin-top: 40px;
+    margin-bottom:40px;
+    box-shadow: 5px 10px 13px grey;
+    border-radius:0px;  
+
+}
+.contact .col-6 p{
+    text-align: center;
+    padding-top: px;
+    color:grey;
+}
+
+
+.carousel{
+    padding:60px;
+}
+
+/* End of contact */
+
+footer{
+    background:rgb(0, 148, 104);
+}
+footer a{
+    text-decoration:none;
+    color:black;
+    transition: color 1s;
+}
+footer a:hover{
+    text-decoration:none;
+    color:white;
+}
