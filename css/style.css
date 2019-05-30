@@ -6,48 +6,37 @@ html {
     scroll-behavior: smooth;
     
 }  
-.container{
-    margin: 0px;
-    padding:0px;
-    margin: 0px;
-    border:0px;
-}
+
 .navbar .logo img{
     height:40px;
     margin: 10px;
 }
 .navbar{
     background:white;
-    position: static;
+    
+    
     
 }
+.navbar .navbar-nav a{
+    
+    margin: 10px auto;
+    display: block;
+}
 
-.navbar .nav-items a{
+.navbar-expand-md{
+    background: white;
+}
+.navbar .nav-item a{
     text-decoration: none;
-    color:black;
+    color:brown;
     font-weight: bold;
     padding: 0px 10px;
     transition: border-bottom .5s;
+    
 }
 
-.underline {
-  display: inline;
-  position: relative;
-  overflow: hidden;
-}
-.underline:after {
-  content: "";
-  position: absolute;
-  /* z-index: -1; */
-  left: 0;
-  right: 100%;
-  bottom: -10px;
-  background: #ffdd93;
-  height: 4px;
-  transition-property: left right;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-}
+
+
 .underline:hover:after,
 .underline:focus:after,
 .underline:active:after {
