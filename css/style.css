@@ -57,33 +57,33 @@ html {
 header{
     font-family: 'Noto Sans HK', sans-serif;
 }
-header .col-md-6 img{
+header .col-lg-6 img{
     height:440px;
     
 }
 
-header .col-md-6{
+header .col-lg-6{
     background-color:rgb(253, 245, 203);
     
 }
-header .col-md-6 h1{
+header .col-lg-6 h1{
     margin: 10px 20px 10px 200px;
     color:black;
     font-size:60px;
     font-family: 'Noto Sans HK', sans-serif;
 }
-header .col-md-6 p{
+header .col-lg-6 p{
     margin: 10px 20px 20px 200px;
     font-size:18px;
 }
-header .col-md-6 button{
+header .col-lg-6 button{
     background:orange;
     margin: 10px 200px 20px 200px;
     padding-left: 20px;
     padding-right: 20px;
     font-weight:bold;
 }
-header .col-md-6 #logo{
+header .col-lg-6 #logo{
     margin: 40px auto 10px auto;
     height: 120px;
     display:block;
@@ -143,7 +143,7 @@ header .col-md-6 #logo{
     color:grey;
     border-radius:10px;
 }
-.about .col-md-6 img{
+.about .col-lg-6 img{
     height:350px;
     margin: 60px auto;
     display:block;
@@ -169,22 +169,22 @@ header .col-md-6 #logo{
     padding-bottom:10px;
     border-bottom: 4px solid rgb(0, 148, 104);
 }
-.why .col-md-4{
+.why .col-lg-4{
     padding:30px; 
     
 }
-.why .col-md-4 img{
+.why .col-lg-4 img{
     height: 120px;
     margin: 30px auto;
     display: block;
 }
 
-.why .col-md-4 h1{
+.why .col-lg-4 h1{
     font-size:30px;
     color: rgb(0, 148, 104);
     font-weight:600;
 }
-.why .col-md-4 p{
+.why .col-lg-4 p{
     text-align: justify;
     color: grey;
     padding:20px;
@@ -213,28 +213,28 @@ header .col-md-6 #logo{
 .how .row{
     margin-top:60px;
 }
-.how .col-md-6 ul{
+.how .col-lg-6 ul{
     text-decoration:none;
     color:grey;
     /* background-color: orange; */
 }
 
 
-.how .col-md-6 .col-md-8{
+.how .col-lg-6 .col-lg-8{
     float: right;
   
     text-align: center;
     border-right: 2px solid black;
 }
 
-.how .col-md-6 .col-md-8 h1{
+.how .col-lg-6 .col-lg-8 h1{
 
     color:grey;
     font-size: 70px;
 
 }
 
-.how .col-md-6 .col-md-8 h2{
+.how .col-lg-6 .col-lg-8 h2{
     color:rgb(0, 148, 104);
 }
 .how #text ul{
@@ -266,7 +266,7 @@ header .col-md-6 #logo{
     padding-bottom:10px;
     border-bottom: 4px solid rgb(0, 148, 104);
 }
-.skills .col-md-6 .col-md-6{
+.skills .col-lg-6 .col-lg-6{
     padding:30px;
     text-align: center;
     background: white;
@@ -276,7 +276,7 @@ header .col-md-6 #logo{
     border-radius:10px;  
 
 }
-.skills .col-md-6 p{
+.skills .col-lg-6 p{
     text-align: left;
     padding-top: 20px;
     color:grey;
@@ -288,17 +288,17 @@ header .col-md-6 #logo{
  
 }
 
-.contact .col-md-6 h1{
+.contact .col-lg-6 h1{
     text-align:center;
     padding-top:10px;
    
     
 }
-.contact .col-md-6  h1 span{
+.contact .col-lg-6  h1 span{
     padding-bottom:10px;
     border-bottom: 4px solid rgb(0, 148, 104);
 }
-.contact .col-md-6 .col-md-6{
+.contact .col-lg-6 .col-lg-6{
     padding:10px;
     text-align: center;
     background:rgb(220, 244, 252);
@@ -308,7 +308,7 @@ header .col-md-6 #logo{
     border-radius:0px;  
 
 }
-.contact .col-md-6 p{
+.contact .col-lg-6 p{
     text-align: center;
     padding-top: px;
     color:grey;
@@ -342,7 +342,7 @@ footer a:hover{
         z-index: 1;
         
     }
-    .how .col-md-6 ul{
+    .how .col-lg-6 ul{
         text-decoration:none;
         color:grey;
         text-align: justify;
@@ -352,7 +352,7 @@ footer a:hover{
     }
     
     
-    .how .col-md-6 .col-md-8{
+    .how .col-lg-6 .col-lg-8{
         float: right;
         text-align: center;
         border-right: 0px solid black;
@@ -373,19 +373,19 @@ footer a:hover{
         text-align: center;
         /* padding-top:30px; */
     }
-    header .col-md-6 img{
+    header .col-lg-6 img{
         height:220px;
         margin:20px auto;
         display: block;
         
     }
-    .about .col-md-6 img{
+    .about .col-lg-6 img{
         height:220px;
         margin: 60px auto;
         display:block;
         /* border: 10px solid rgb(0,148,104); */
     }
-    header .col-md-6 h1{
+    header .col-lg-6 h1{
         margin: 20px auto;
         /* display: block; */
         color:black;
@@ -393,13 +393,13 @@ footer a:hover{
         font-size:60px;
         font-family: 'Noto Sans HK', sans-serif;
     }
-    header .col-md-6 p{
+    header .col-lg-6 p{
         margin: 20px auto;
         display: block;
         font-size:18px;
         text-align: center;
     }
-    header .col-md-6 button{
+    header .col-lg-6 button{
         background:orange;
         margin: 20px auto;
         display: block;
