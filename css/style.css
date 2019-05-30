@@ -355,7 +355,7 @@ footer a:hover{
     .how .col-md-6 .col-md-8{
         float: right;
         text-align: center;
-        border-bottom: 0px solid black;
+        border-right: 0px solid black;
     }
     .how #text ul{
         /* padding:30px; */
@@ -373,5 +373,38 @@ footer a:hover{
         text-align: center;
         /* padding-top:30px; */
     }
-   
+    header .col-md-6 img{
+        height:220px;
+        margin:20px auto;
+        display: block;
+        
+    }
+    .about .col-md-6 img{
+        height:220px;
+        margin: 60px auto;
+        display:block;
+        /* border: 10px solid rgb(0,148,104); */
+    }
+    header .col-md-6 h1{
+        margin: 20px auto;
+        /* display: block; */
+        color:black;
+        text-align: center;
+        font-size:60px;
+        font-family: 'Noto Sans HK', sans-serif;
+    }
+    header .col-md-6 p{
+        margin: 20px auto;
+        display: block;
+        font-size:18px;
+        text-align: center;
+    }
+    header .col-md-6 button{
+        background:orange;
+        margin: 20px auto;
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight:bold;
+    }
   }
