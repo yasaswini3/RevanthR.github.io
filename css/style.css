@@ -48,7 +48,7 @@ header{
 }
 header .col-lg-6 img{
     height:440px;
-    
+    /* object-fit:cover; */
 }
 
 header .col-lg-6{
@@ -323,6 +323,11 @@ footer a:hover{
     color:white;
 }
 @media screen and (max-width: 600px) {
+    .carousel{
+        margin:20px;
+        margin-top:40px;
+    }
+    
     
     .how{
         font-family: 'Noto Sans HK', sans-serif;
@@ -347,11 +352,12 @@ footer a:hover{
         border-right: 0px solid black;
     }
     .how #text ul{
-        /* padding:30px; */
+        padding:10px;
         text-align:center;
         line-height: 35px;
         color:grey;
         list-style: none;
+        margin-top: 10px;
     
     }
     .vision{
@@ -405,4 +411,23 @@ footer a:hover{
         text-align-last: center;    
     }
 
+    .how .row{
+        margin-top:20px;
+    }
+    .how h1{
+        text-align:center;
+        padding-top:20px;
+       
+        
+    }
+    .skills .col-lg-6 .col-lg-6{
+        padding:30px;
+        text-align: center;
+        background: white;
+        /* margin-left: 20px;
+        margin-right:20px; */
+        box-shadow: 5px 10px 13px #888888;
+        border-radius:10px;  
+    
+    }
   }
